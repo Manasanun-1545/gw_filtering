@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gw_screener"
+version = "0.1.0"
+authors = [
+  { name="Your Name", email="your.email@example.com" },
+]
+description = "A pipeline for screening optical counterparts of GW events (Fast Transient vs SN)."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "astropy",
+    "astroquery",
+    "scipy",
+    "openpyxl"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/gw_screener"
